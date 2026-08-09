@@ -1,0 +1,21 @@
+{
+  "purpose": "Placebo-feedback control for causal identification: same iterative loop and prompt scaffolding as iterative_static_feedback, but scanner findings are shuffled/misaligned (not code-aligned).",
+  "configs": {
+    "pilot": "experiment_config.placebo_arm_pilot.json — 2 tasks, 1 model, 5 runs/cell (~smoke test)",
+    "full": "experiment_config.placebo_arm.json — all tasks, 3 models, 30 runs/cell (matches paper30 security_enhanced iterative pairing)"
+  },
+  "placebo_feedback_modes": ["shuffled_findings", "generic", "empty"],
+  "merge": "merge_replace_feedback_strategies drops only iterative_placebo_feedback rows before appending new run",
+  "commands": [
+    "cd /path/to/this/repository && source .venv/bin/activate",
+    "EXPERIMENT_CONFIG=experiment_config.placebo_arm_pilot.json python3 main.py",
+    "./run_placebo_arm_pipeline.sh",
+    "EXPERIMENT_CONFIG=experiment_config.placebo_arm.json ./run_placebo_arm_pipeline.sh",
+    "python3 export_thesis_docx.py"
+  ],
+  "stats_keys": [
+    "placebo_control_real_vs_placebo_total",
+    "placebo_control_real_vs_placebo_medium_high",
+    "RQ5_placebo_total"
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "created_utc": "2026-08-09T08:06:29.862027+00:00",
+  "bundle_folder": "replication_bundle",
+  "bundle_zip": "replication_bundle.zip",
+  "scope": "EMSE code-only \u2014 no manuscript, no frozen run outputs",
+  "file_count": 57,
+  "total_bytes_zip": 74935,
+  "license": "CC-BY-4.0",
+  "manuscript": {
+    "title": "Placebo-Controlled Identification in Scanner-Driven LLM Code Repair: Disentangling Feedback Content from Loop Scaffolding",
+    "short_title": "Placebo-Controlled Scanner-Driven LLM Repair",
+    "target_journal": "Empirical Software Engineering",
+    "date": "2026-07-08"
+  },
+  "authors": [
+    {
+      "name": "Wasawat Buengkanjana",
+      "affiliation": "Master of Science Program in Computer Science and Information Technology, Khonkaen University, Khon Kaen, Thailand",
+      "affiliation_lines": [
+        "Master of Science Program in Computer Science and Information Technology",
+        "Khonkaen University",
+        "Khon Kaen, Thailand"
+      ],
+      "email": "about.wswyeanbkjn@gmail.com",
+      "orcid": "0009-0003-7109-1093",
+      "phone_mobile": "+66 97-442-4615",
+      "corresponding": false,
+      "author_order": 1
+    },
+    {
+      "name": "Khamron Sunat",
+      "affiliation": "College of Computing, Khonkaen University, Khon Kaen, Thailand",
+      "affiliation_lines": [
+        "College of Computing",
+        "Khonkaen University",
+        "Khon Kaen, Thailand"
+      ],
+      "email": "skhamron@kku.ac.th",
+      "orcid": "0000-0002-2042-3284",
+      "phone_work": "+66 4336 2188-90",
+      "phone_mobile": "+66 80-461-3391",
+      "postal_address": "123 Mittraphap Road, Nai Muang, Muang, Khon Kaen, Thailand 40002",
+      "corresponding": true,
+      "author_order": 2,
+      "role": "advisor"
+    },
+    {
+      "name": "Sirapat Chiewchanwattana",
+      "affiliation": "College of Computing, Khonkaen University, Khon Kaen, Thailand",
+      "affiliation_lines": [
+        "College of Computing",
+        "Khonkaen University",
+        "Khon Kaen, Thailand"
+      ],
+      "email": "sunkra@kku.ac.th",
+      "orcid": "0000-0003-4473-2206",
+      "corresponding": false,
+      "author_order": 3,
+      "role": "advisor"
+    }
+  ],
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 1943,
+      "sha256": "2b82fd626de0889189b3701564b9de739300942d6cfb5865184d76a04b46b140"
+    },
+    {
+      "path": "GUIDE_Q1_EXTENSION.md",
+      "bytes": 3796,
+      "sha256": "ab6bdab639a250598be872ae938ab5f2c6ac7f55492cf1611a2fe5777f656756"
+    },
+    {
+      "path": "GUIDE_RUN_ALL.md",
+      "bytes": 1711,
+      "sha256": "35ddce6b922f12ed168a0441d8b921ba286cef7063f408a3729ce47d9c86a2fc"
+    },
+    {
+      "path": "GUIDE_RUN_OLLAMA.md",
+      "bytes": 1360,
+      "sha256": "a7a5e01e1c8982e68e6a211a2d8d796dbd78c60f4f66fb0ea77b125ced1189c2"
+    },
+    {
+      "path": "adjudicate_external_validation.py",
+      "bytes": 6623,
+      "sha256": "8658ff5d261dc95eeb535adef5aec8d04bfbc28c0a1f30cfd7faba30718edad2"
+    },
+    {
+      "path": "analyze_measurement_gaps.py",
+      "bytes": 6896,
+      "sha256": "82c91c6e20ab7d36a17c280951e40aa248747bece0fde6855d1d40d2964a5d0d"
+    },
+    {
+      "path": "analyzer.py",
+      "bytes": 6317,
+      "sha256": "5302af78c013b088418cbf6b1cf86bf75e86af8eeec7908cc9fff5c79d826fa8"
+    },
+    {
+      "path": "audit_thesis_numbers.py",
+      "bytes": 12100,
+      "sha256": "1d17cf1e47330a7c75a1eed0a8fff92ffe8537104c51abdefcefa31abcdaccd4"
+    },
+    {
+      "path": "charts.py",
+      "bytes": 7063,
+      "sha256": "785ba60cd95a98237642b5698d35efd59369826dd236d1283605115673763d5c"
+    },
+    {
+      "path": "clean_outputs.py",
+      "bytes": 743,
+      "sha256": "79337e3cfb47f444655aba64883e5b5dff9bf7400a76bc99d6d5a1c2ca751d42"
+    },
+    {
+      "path": "dataset.json",
+      "bytes": 951,
+      "sha256": "5a98a2ec0c9b4014b23491741be24af4ec365a4a0de6b3c04f9e798330de7e81"
+    },
+    {
+      "path": "dataset_q1_extension.json",
+      "bytes": 1732,
+      "sha256": "683cf1ab93b2ed5f53e3de6ee930d77518eb88ee2dfaf360a74d9ef4eae44798"
+    },
+    {
+      "path": "dynamic_validation.py",
+      "bytes": 13868,
+      "sha256": "efb6964240fc5f8c55a8f5a4ec79230bb6368e50f96358044bd608ab4db58b37"
+    },
+    {
+      "path": "experiment_config.free3.json",
+      "bytes": 954,
+      "sha256": "1c7216e6dbcf89b200c67143de69d08a5fe6801bdf44341aff124c0da551ebd3"
+    },
+    {
+      "path": "experiment_config.go_js_supplement_note.json",
+      "bytes": 313,
+      "sha256": "05c37eebbe578ffcd2c6ce467946fd05b81c2ba933594132011924d14732c36a"
+    },
+    {
+      "path": "experiment_config.json",
+      "bytes": 954,
+      "sha256": "1c7216e6dbcf89b200c67143de69d08a5fe6801bdf44341aff124c0da551ebd3"
+    },
+    {
+      "path": "experiment_config.ollama.json",
+      "bytes": 486,
+      "sha256": "77d0e0a537d7483fa037ca209069a7f8c94b4fbb20eb925e93593a85082f6bc8"
+    },
+    {
+      "path": "experiment_config.paper10.json",
+      "bytes": 955,
+      "sha256": "7147532836117c36d7d008eb080b812e19218e123c8455c2b74e6e263bfbaba9"
+    },
+    {
+      "path": "experiment_config.paper30.json",
+      "bytes": 955,
+      "sha256": "d6493d887aac1e039a11a14bf48ba32d6db5844d8f383bf94e288b4f496acabd"
+    },
+    {
+      "path": "experiment_config.paper30_rq2boost.json",
+      "bytes": 1188,
+      "sha256": "f2d027128dbbc6ca976f54e19c13b67d0367c7ebfe557d8b4f2a82d7818e3d84"
+    },
+    {
+      "path": "experiment_config.paper30_rq45boost.json",
+      "bytes": 1359,
+      "sha256": "cfe6d5b58817a1dbd6b7b091752c533693af7ee83f8cb27dffb2659396189a2e"
+    },
+    {
+      "path": "experiment_config.placebo_arm.json",
+      "bytes": 1688,
+      "sha256": "9126416516150a48bfaa120ecc02646032286f43438d005f38123524c061b50c"
+    },
+    {
+      "path": "experiment_config.placebo_arm_note.json",
+      "bytes": 1135,
+      "sha256": "acd410fb5e5f2fb1771ffb874e29b677050afe31919f97095749bc83f7e9c347"
+    },
+    {
+      "path": "experiment_config.placebo_arm_pilot.json",
+      "bytes": 1049,
+      "sha256": "63c75bccfdf5c85eef91efd2b14bf9413657b3537a2e2868a6a89fadd532cab1"
+    },
+    {
+      "path": "experiment_config.q1_placebo_ladder.json",
+      "bytes": 1655,
+      "sha256": "c5c444fd883946efc410a9cb161439890749322a86e177a97bc5bb1c7b0ccbba"
+    },
+    {
+      "path": "experiment_config.q1_placebo_ladder_pilot.json",
+      "bytes": 1180,
+      "sha256": "a259639ce9144ea3f72f4cd5fd9a5640de9b5af0c7c119f890ea0d7416e2632b"
+    },
+    {
+      "path": "experiment_config.q1_task_extension.json",
+      "bytes": 1990,
+      "sha256": "b0cde9f880f50f20c885e688c7f90deb12494fac39d5cc9d084547f39f943c71"
+    },
+    {
+      "path": "experiment_config.rerun_t4_merge.json",
+      "bytes": 1419,
+      "sha256": "106a7a2e38e34acb8f08ef4e3cbf9b7b17c61bb55e69bbf159b9f70e922bbf4c"
+    },
+    {
+      "path": "generator.py",
+      "bytes": 4308,
+      "sha256": "9313651e69a8762dbbaa369065aa9068c528dfdb92f157eb3c4fd491d28c6aba"
+    },
+    {
+      "path": "main.py",
+      "bytes": 22547,
+      "sha256": "dc160d79c0e5adb752d48c4a1b7a6a8745246e056b546c19b2c279a124630690"
+    },
+    {
+      "path": "placebo_feedback.py",
+      "bytes": 2665,
+      "sha256": "1a784ee5e0284b7b8ada937f1cb97fece4004cefbdcba7aab9284702e63c0738"
+    },
+    {
+      "path": "positive_controls/README_POSITIVE_CONTROLS.md",
+      "bytes": 1095,
+      "sha256": "ddfa748f21e18e8d142a91551913d16f6178cc7e834110f6ee60103fd71812fc"
+    },
+    {
+      "path": "positive_controls/c_gets_bad.c",
+      "bytes": 226,
+      "sha256": "d01807ff871e627d0b76f8014f1bb3f8b486441baddcbe2701d305bdf92ba494"
+    },
+    {
+      "path": "positive_controls/go_path_cli_args.go",
+      "bytes": 369,
+      "sha256": "33d824005deee9a5206e350a05c923c38722d4bda96edb1379390ff9f5115e70"
+    },
+    {
+      "path": "positive_controls/go_path_task_shape.go",
+      "bytes": 361,
+      "sha256": "1e0b7c18219481d6335ca4669a8d0c7f1fd6eacd4eeab224edd7a162ec6f8911"
+    },
+    {
+      "path": "positive_controls/go_sql_concat.go",
+      "bytes": 283,
+      "sha256": "80ba735f65d73939c3fbb3615b66a1ec50c9d7dd4f4d23f7e247f890d786731b"
+    },
+    {
+      "path": "positive_controls/java_sql_concat.java",
+      "bytes": 463,
+      "sha256": "6dc8b26d829c6a92ff05e7f61297aa07aa0ca2ef7eb081ec8c4408b373ebf79b"
+    },
+    {
+      "path": "positive_controls/js_cmd_injection.js",
+      "bytes": 267,
+      "sha256": "cc33bed873267ff3978cc7f25ecec7f65214df515f3323be321d93392911b94e"
+    },
+    {
+      "path": "positive_controls/js_eval_task_shape.js",
+      "bytes": 236,
+      "sha256": "9094d68a22d943639c7481a30abf076f8344dd6f043fdbfe955a614284b2f117"
+    },
+    {
+      "path": "positive_controls/py_shell_concat.py",
+      "bytes": 188,
+      "sha256": "619ffa124caf423975592a322919267685712ef2faae42ae48ed7bf119b79a70"
+    },
+    {
+      "path": "positive_controls/py_sql_concat.py",
+      "bytes": 340,
+      "sha256": "284cd788ffde759f1e2a7d70998f65a6dcbbb96a46b6e416fd015bc09ff00933"
+    },
+    {
+      "path": "preflight_check.py",
+      "bytes": 5055,
+      "sha256": "74f16d3e0beda630de67a8ce74f3d15ffa7fd29d64a75b12c69f2fa86656e430"
+    },
+    {
+      "path": "prompts.py",
+      "bytes": 1279,
+      "sha256": "acd67fbb003a6c55897e8bde70863a37277b9a0046b17e91eede3951ecfb2e0b"
+    },
+    {
+      "path": "rescan_merge_go_js_supplement.py",
+      "bytes": 5232,
+      "sha256": "31df703c3cb3e4321ca88370f182d337be9d5401a517f72cd62cef68f8ffc78e"
+    },
+    {
+      "path": "restore_results_baseline.py",
+      "bytes": 1376,
+      "sha256": "62ae91fea0902eca237457bbe1bb150b74df5cfe0ead1ddbcf3ae36fa16145bd"
+    },
+    {
+      "path": "run_q1_extension.py",
+      "bytes": 4155,
+      "sha256": "63e9c81c39014ad107eaf383927d2f287c4f76b7210142a6f4ed1b7fec1d128f"
+    },
+    {
+      "path": "scanner.py",
+      "bytes": 5254,
+      "sha256": "f3c15374d459f7093c40bd8e406f8ef812eeb0bba7febe7b9eacb5bfcac59571"
+    },
+    {
+      "path": "semgrep_rules/go_js_evaluation_supplement.yaml",
+      "bytes": 2885,
+      "sha256": "7698421032c4e62b3e7386a779982c8299f1d2ef79f3cf9e5179971825e51d99"
+    },
+    {
+      "path": "sensitivity_analysis.py",
+      "bytes": 3599,
+      "sha256": "e572eae6b95aa102e18c2344d9f9a5ab08924c0de1344c72c884c5e85ff083d5"
+    },
+    {
+      "path": "statistical_significance.py",
+      "bytes": 30625,
+      "sha256": "1e0bde0568ac6c9bce72fc9a0b72680df6cfdec8b41a282467764997cc3cda12"
+    },
+    {
+      "path": "submission_metadata.json",
+      "bytes": 4515,
+      "sha256": "3709dbe5ad0372ac45a61af80bf9a67a67c2cf8a9ef440e58d6429095b89bb3b"
+    },
+    {
+      "path": "test_dynamic_validation.py",
+      "bytes": 1006,
+      "sha256": "9af90d17c4296d3672199c6c9c78a1445912149397f8aa023e41815850fcad8f"
+    },
+    {
+      "path": "test_merge_outputs.py",
+      "bytes": 2605,
+      "sha256": "f2e0b0fc073d075b22cdfc0064b3f260a9dafd3814ad9332d83733aae3be6f68"
+    },
+    {
+      "path": "test_placebo_feedback.py",
+      "bytes": 1079,
+      "sha256": "8c41a900bd5c7500048f9e4d8aacb3fc49efe876b0f77dcaa27b3d16ec452d51"
+    },
+    {
+      "path": "validate_scanner_positive_controls.py",
+      "bytes": 5424,
+      "sha256": "545fd5cfdf2d6896187940d1ecf847b6ffe84e9702a564b854bb10abbdcc2083"
+    },
+    {
+      "path": "verify_results_csv.py",
+      "bytes": 5640,
+      "sha256": "7ba10713fc165bce50389ff982e43f2e7a18eee91bc80a8a9c6ad1594b45a52b"
+    },
+    {
+      "path": "verify_thesis_figures.py",
+      "bytes": 3062,
+      "sha256": "5cea1820345cc9fabe4bd3d5e90eaca0b89111c4df4ff54eb2473611ebc1c021"
+    }
+  ]
+}

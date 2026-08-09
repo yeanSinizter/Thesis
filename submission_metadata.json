@@ -1,0 +1,77 @@
+{
+  "manuscript": {
+    "title": "Placebo-Controlled Identification in Scanner-Driven LLM Code Repair: Disentangling Feedback Content from Loop Scaffolding",
+    "short_title": "Placebo-Controlled Scanner-Driven LLM Repair",
+    "target_journal": "Empirical Software Engineering",
+    "date": "2026-07-08"
+  },
+  "authors": [
+    {
+      "name": "Wasawat Buengkanjana",
+      "affiliation": "Master of Science Program in Computer Science and Information Technology, Khonkaen University, Khon Kaen, Thailand",
+      "affiliation_lines": [
+        "Master of Science Program in Computer Science and Information Technology",
+        "Khonkaen University",
+        "Khon Kaen, Thailand"
+      ],
+      "email": "about.wswyeanbkjn@gmail.com",
+      "orcid": "0009-0003-7109-1093",
+      "phone_mobile": "+66 97-442-4615",
+      "corresponding": false,
+      "author_order": 1
+    },
+    {
+      "name": "Khamron Sunat",
+      "affiliation": "College of Computing, Khonkaen University, Khon Kaen, Thailand",
+      "affiliation_lines": [
+        "College of Computing",
+        "Khonkaen University",
+        "Khon Kaen, Thailand"
+      ],
+      "email": "skhamron@kku.ac.th",
+      "orcid": "0000-0002-2042-3284",
+      "phone_work": "+66 4336 2188-90",
+      "phone_mobile": "+66 80-461-3391",
+      "postal_address": "123 Mittraphap Road, Nai Muang, Muang, Khon Kaen, Thailand 40002",
+      "corresponding": true,
+      "author_order": 2,
+      "role": "advisor"
+    },
+    {
+      "name": "Sirapat Chiewchanwattana",
+      "affiliation": "College of Computing, Khonkaen University, Khon Kaen, Thailand",
+      "affiliation_lines": [
+        "College of Computing",
+        "Khonkaen University",
+        "Khon Kaen, Thailand"
+      ],
+      "email": "sunkra@kku.ac.th",
+      "orcid": "0000-0003-4473-2206",
+      "corresponding": false,
+      "author_order": 3,
+      "role": "advisor"
+    }
+  ],
+  "artifact": {
+    "bundle_filename": "replication_bundle.zip",
+    "zenodo_doi": "10.5281/zenodo.21850809",
+    "zenodo_url": "https://doi.org/10.5281/zenodo.21850809",
+    "github_url": "https://github.com/yeanSinizter/Thesis",
+    "license": "CC-BY-4.0",
+    "zenodo_concept_doi": "10.5281/zenodo.21850609",
+    "zenodo_version_doi_example": "10.5281/zenodo.21850758",
+    "zenodo_version_doi": "10.5281/zenodo.21850809"
+  },
+  "declarations": {
+    "funding": "No external funding was received for this research.",
+    "competing_interests": "The authors declare no competing financial or non-financial interests relevant to the content of this article.",
+    "ethics_approval": "Not applicable. This study does not involve human participants or animals.",
+    "consent": "Not applicable.",
+    "data_availability": "Source code and configuration files for this study are archived at Zenodo (https://doi.org/10.5281/zenodo.21850809; concept DOI https://doi.org/10.5281/zenodo.21850609) and mirrored at https://github.com/yeanSinizter/Thesis. The public deposit is code-only (no manuscript files and no frozen run outputs). Aggregate statistics reported in this article can be regenerated from the packaged scripts under the documented toolchain.",
+    "code_availability": "Source code, configuration JSON, and regeneration scripts are included in the Zenodo/GitHub code package (https://doi.org/10.5281/zenodo.21850809). See README.md in the deposit.",
+    "author_contributions": "Wasawat Buengkanjana: conceptualization, methodology, software, formal analysis, investigation, data curation, writing—original draft, visualization, project administration. Khamron Sunat: supervision, methodology review, writing—review and editing, project administration. Sirapat Chiewchanwattana: supervision, methodology review, writing—review and editing.",
+    "prior_publication": "An earlier version of the six-task factorial design appeared in an unpublished MSc thesis (Khon Kaen University, 2026). The journal manuscript adds the placebo-feedback ladder, Q1 task extensions, dynamic-validation audits, and frozen replication artifacts not present in that thesis.",
+    "llm_disclosure": "Locally hosted code LLMs (Ollama) were used as experimental subjects only, not as manuscript authors. No generative AI was used for autonomous content creation."
+  },
+  "acknowledgment": "The authors thank colleagues and reviewers for feedback on measurement design, placebo controls, and construct-validity audits. Compute was performed on local workstations using Ollama; no external grant funded this replication export."
+}

@@ -1,0 +1,43 @@
+{
+  "dataset_path": "dataset.json",
+  "runs_per_condition": 3,
+  "max_iterations": 5,
+  "secure_prompt_version": "v2",
+  "task_indices": [0, 2],
+  "description": "Smoke test for Q1 placebo ladder (2 tasks, 1 model, 3 runs).",
+  "merge_replace_feedback_strategies": [
+    "iterative_placebo_generic_feedback",
+    "iterative_placebo_empty_feedback"
+  ],
+  "placebo_feedback": {"seed": 42},
+  "candidate_selection": {
+    "enabled": true,
+    "num_candidates": 2,
+    "target_prompt_strategies": ["security_enhanced"],
+    "target_feedback_strategies": [
+      "iterative_placebo_generic_feedback",
+      "iterative_placebo_empty_feedback"
+    ]
+  },
+  "repair_candidate_selection": {
+    "enabled": true,
+    "num_candidates": 2,
+    "reject_on_regression": true
+  },
+  "prompt_strategies": ["security_enhanced"],
+  "feedback_strategies": [
+    "iterative_placebo_generic_feedback",
+    "iterative_placebo_empty_feedback"
+  ],
+  "models": [
+    {
+      "id": "ollama_qwen2_5_coder_7b",
+      "provider": "ollama",
+      "name": "qwen2.5-coder:7b",
+      "temperature": 0.2,
+      "max_tokens": 1200,
+      "base_url": "http://localhost:11434",
+      "timeout_sec": 240
+    }
+  ]
+}

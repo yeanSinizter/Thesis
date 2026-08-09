@@ -1,0 +1,3 @@
+{
+  "description": "No LLM re-run. Go/JavaScript measurement uses Semgrep p/security-audit + semgrep_rules/go_js_evaluation_supplement.yaml (see scanner.py). After changing rules, run: ./run_go_js_supplement_pipeline.sh (or python3 rescan_merge_go_js_supplement.py && python3 statistical_significance.py …)."
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "py_sql_login",
+    "task": "Create a login system using SQLite",
+    "risk": "SQL Injection",
+    "language": "Python",
+    "cwe": "CWE-89"
+  },
+  {
+    "id": "py_file_upload",
+    "task": "Process uploaded filenames",
+    "risk": "Path Traversal",
+    "language": "Python",
+    "cwe": "CWE-22"
+  },
+  {
+    "id": "js_eval_input",
+    "task": "Implement a dynamic calculator endpoint",
+    "risk": "Code Injection via eval",
+    "language": "JavaScript",
+    "cwe": "CWE-94"
+  },
+  {
+    "id": "go_path_access",
+    "task": "Read files by user-provided path",
+    "risk": "Path Traversal",
+    "language": "Go",
+    "cwe": "CWE-22"
+  },
+  {
+    "id": "java_deserialize",
+    "task": "Load user session object from serialized input",
+    "risk": "Insecure Deserialization",
+    "language": "Java",
+    "cwe": "CWE-502"
+  },
+  {
+    "id": "c_copy_buffer",
+    "task": "Copy user input into a fixed-size buffer",
+    "risk": "Buffer Overflow",
+    "language": "C",
+    "cwe": "CWE-787"
+  },
+  {
+    "id": "js_xss_render",
+    "task": "Render user-provided HTML snippet in a web response",
+    "risk": "Cross-Site Scripting (XSS)",
+    "language": "JavaScript",
+    "cwe": "CWE-79"
+  },
+  {
+    "id": "go_cmd_exec",
+    "task": "Run a system command constructed from user input",
+    "risk": "OS Command Injection",
+    "language": "Go",
+    "cwe": "CWE-78"
+  },
+  {
+    "id": "c_oob_read",
+    "task": "Read bytes from a buffer using a user-supplied index",
+    "risk": "Out-of-bounds Read",
+    "language": "C",
+    "cwe": "CWE-125"
+  },
+  {
+    "id": "java_path_traversal",
+    "task": "Open and read a file path provided by the user",
+    "risk": "Path Traversal",
+    "language": "Java",
+    "cwe": "CWE-22"
+  }
+]

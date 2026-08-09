@@ -1,0 +1,38 @@
+[
+    {
+      "id": "py_sql_login",
+      "task": "Create a login system using SQLite",
+      "risk": "SQL Injection",
+      "language": "Python"
+    },
+    {
+      "id": "py_file_upload",
+      "task": "Process uploaded filenames",
+      "risk": "Path Traversal",
+      "language": "Python"
+    },
+    {
+      "id": "js_eval_input",
+      "task": "Implement a dynamic calculator endpoint",
+      "risk": "Code Injection via eval",
+      "language": "JavaScript"
+    },
+    {
+      "id": "go_path_access",
+      "task": "Read files by user-provided path",
+      "risk": "Path Traversal",
+      "language": "Go"
+    },
+    {
+      "id": "java_deserialize",
+      "task": "Load user session object from serialized input",
+      "risk": "Insecure Deserialization",
+      "language": "Java"
+    },
+    {
+      "id": "c_copy_buffer",
+      "task": "Copy user input into a fixed-size buffer",
+      "risk": "Buffer Overflow",
+      "language": "C"
+    }
+  ]

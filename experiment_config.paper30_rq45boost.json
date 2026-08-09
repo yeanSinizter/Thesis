@@ -1,0 +1,60 @@
+{
+  "dataset_path": "dataset.json",
+  "runs_per_condition": 30,
+  "max_iterations": 5,
+  "secure_prompt_version": "v2",
+  "candidate_selection": {
+    "enabled": true,
+    "num_candidates": 3,
+    "target_prompt_strategies": [
+      "baseline",
+      "security_enhanced"
+    ],
+    "target_feedback_strategies": [
+      "none",
+      "iterative_static_feedback"
+    ]
+  },
+  "repair_candidate_selection": {
+    "enabled": true,
+    "num_candidates": 3,
+    "reject_on_regression": true
+  },
+  "prompt_strategies": [
+    "baseline",
+    "security_enhanced"
+  ],
+  "feedback_strategies": [
+    "none",
+    "iterative_static_feedback"
+  ],
+  "models": [
+    {
+      "id": "ollama_qwen2_5_coder_7b",
+      "provider": "ollama",
+      "name": "qwen2.5-coder:7b",
+      "temperature": 0.2,
+      "max_tokens": 1200,
+      "base_url": "http://localhost:11434",
+      "timeout_sec": 240
+    },
+    {
+      "id": "ollama_deepseek_coder_6_7b",
+      "provider": "ollama",
+      "name": "deepseek-coder:6.7b",
+      "temperature": 0.2,
+      "max_tokens": 1200,
+      "base_url": "http://localhost:11434",
+      "timeout_sec": 240
+    },
+    {
+      "id": "ollama_codellama_7b",
+      "provider": "ollama",
+      "name": "codellama:7b",
+      "temperature": 0.2,
+      "max_tokens": 1200,
+      "base_url": "http://localhost:11434",
+      "timeout_sec": 240
+    }
+  ]
+}

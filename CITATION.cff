@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+title: "Placebo-Controlled Identification in Scanner-Driven LLM Code Repair: Disentangling Feedback Content from Loop Scaffolding"
+message: "If you use this replication package, please cite the manuscript and the artifact bundle."
+authors:
+  - family-names: Buengkanjana
+    given-names: Wasawat
+    orcid: "https://orcid.org/0009-0003-7109-1093"
+    affiliation: "Master of Science Program in Computer Science and Information Technology, Khonkaen University, Khon Kaen, Thailand"
+    email: about.wswyeanbkjn@gmail.com
+  - family-names: Sunat
+    given-names: Khamron
+    orcid: "https://orcid.org/0000-0002-2042-3284"
+    affiliation: "College of Computing, Khonkaen University, Khon Kaen, Thailand"
+    email: skhamron@kku.ac.th
+  - family-names: Chiewchanwattana
+    given-names: Sirapat
+    orcid: "https://orcid.org/0000-0003-4473-2206"
+    affiliation: "College of Computing, Khonkaen University, Khon Kaen, Thailand"
+    email: sunkra@kku.ac.th
+repository-code: "https://github.com/yeanSinizter/Thesis"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21850809
+    description: Zenodo replication package (latest version DOI)
+license: CC-BY-4.0
+version: 1.2.0
+date-released: 2026-08-08
+keywords:
+  - large language models
+  - static analysis
+  - software security
+  - placebo control
+  - empirical software engineering
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "Placebo-Controlled Identification in Scanner-Driven LLM Code Repair: Disentangling Feedback Content from Loop Scaffolding"
+  authors:
+    - family-names: Buengkanjana
+      given-names: Wasawat
+      orcid: "https://orcid.org/0009-0003-7109-1093"
+    - family-names: Sunat
+      given-names: Khamron
+      orcid: "https://orcid.org/0000-0002-2042-3284"
+    - family-names: Chiewchanwattana
+      given-names: Sirapat
+      orcid: "https://orcid.org/0000-0003-4473-2206"
+  journal: "Empirical Software Engineering"
+  year: 2026
